@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Image Page</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <style>
+    /* Reset and base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f9f9f9;
+      color: #222;
+      align-items: center;
+      padding: 32px 16px;
+    }
+
+    /* Responsive container with max-width for large desktops */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Images styling */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Spacing between images and text with 25px margins */
+    .spacing-25 {
+      margin-top: 25px;
+    }
+
+    /* Responsive Header and Footer */
+    header, footer {
+      width: 100%;
+      max-width: 1200px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #004080;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Header content */
+    .header-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Align icon to left with margin */
+    .material-icons {
+      font-size: 28px;
+    }
+
+    /* Footer text */
+    footer {
+      justify-content: center;
+      font-size: 1rem;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    /* Responsive breakpoints */
+    @media (max-width: 767px) {
+      header, footer {
+        padding: 8px 12px;
+      }
+      .header-title {
+        font-size: 1.25rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <span class="material-icons" aria-hidden="true">apps</span>
+    My App
+  </div>
+  <nav aria-label="Primary Navigation">
+    <!-- Navigation icons example -->
+    <a href="#" aria-label="Home" style="color: white; text-decoration:none; margin-right:16px;">
+      <span class="material-icons">home</span>
+    </a>
+    <a href="#" aria-label="Profile" style="color: white; text-decoration:none;">
+      <span class="material-icons">account_circle</span>
+    </a>
+  </nav>
+</header>
+
+<main class="container" role="main">
+  <!-- The main images and text in vertical order -->
+
+  <img 
+    src="C:\Users\capta\Desktop\Test\Ahmed App\static\description\images.png" 
+    alt="Placeholder representing the main image called images.png" 
+    width="600"
+    height="200"
+  />
+
+  <img 
+    src="C:\Users\capta\Desktop\Test\Ahmed App\static\description\divider.png" 
+    alt="Placeholder representing the divider image" 
+    width="600"
+    height="50"
+    class="spacing-25"
+  />
+
+  <p class="spacing-25" style="font-size: 1.25rem; font-weight: 600;">
+    This app made by: Ahmed Hisham
+  </p>
+</main>
+
+<footer>
+  <span>&copy; 2024 Ahmed Hisham</span>
+</footer>
+
+</body>
+</html>
