@@ -19,7 +19,7 @@
 
     'version': "18.0",
 
-    'category': "Sales",
+    'category': "Stock",
 
     'summary': "This app adds a fild on Sales order. Keywords: App, add, field, sales, order,.",
 
@@ -38,7 +38,7 @@
 
     'website': "https://www.aptuem.com",
 
-    "depends": ['sales'],
+    "depends": ['Stock'],
 
     "data": [
         "views/res_users_view.xml",
