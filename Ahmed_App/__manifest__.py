@@ -21,7 +21,7 @@
 
     'category': "stock",
 
-    'price': "1000 usd",
+    'price': "1000usd",
     
     'icon': './static/description/icon.png',
 
