@@ -21,6 +21,8 @@
 
     'category': "stock",
 
+    'price': "1000",
+    
     'icon': './static/description/icon.png',
 
     'summary': "This app adds a fild on Sales order. Keywords: App, add, field, sales, order,.",
