@@ -18,7 +18,9 @@
     "name": "Ahmed app",
 
     'version': "18.0",
-
+    
+    'price': "1000",
+    
     'category': "Sales",
 
     'summary': "This app adds a fild on Sales order. Keywords: App, add, field, sales, order,.",
