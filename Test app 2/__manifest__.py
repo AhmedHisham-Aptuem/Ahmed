@@ -19,7 +19,7 @@
 
     'version': "18.0",
     
-    'price': "1000",
+    'price': "1000 USD",
     
     'category': "Sales",
 
